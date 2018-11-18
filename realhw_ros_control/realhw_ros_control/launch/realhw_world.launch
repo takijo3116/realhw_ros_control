@@ -6,8 +6,6 @@
 
   <param name="robot_description" textfile="$(find trobo_description)/urdf/trobo.urdf"/>
   
-	 command="$(find xacro)/xacro '$(find trobo_description)/urdf/trobo.xacro'" />
-
   <!-- ros_control rrbot launch file -->
   <include file="$(find realhw_control)/launch/realhw_control.launch" />
 
