@@ -1,6 +1,8 @@
 <launch>
-  <param name="robot_description"
-	 command="$(find xacro)/xacro '$(find trobo_description)/urdf/trobo_sim.xacro'" />
+  <!--<param name="robot_description"
+	 command="$(find xacro)/xacro '$(find trobo_description)/urdf/trobo_sim.xacro'" />-->
+
+  <param name="robot_description" textfile="$(find trobo_description)/urdf/trobo_sim.urdf"/>
 
   <include file="$(find simhw_ros_control)/launch/simhw_control.launch" />
    
