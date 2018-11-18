@@ -64,10 +64,10 @@
   <transmission name="tran1">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="joint1">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor1">
-      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>

@@ -33,7 +33,7 @@ public:
 
 protected:
   hardware_interface::JointStateInterface jnt_state_interface;
-  hardware_interface::EffortJointInterface jnt_eff_interface;
+  hardware_interface::PositionJointInterface jnt_pos_interface;
   double cmd_[1];
   double pos_[1];
   double vel_[1];
